@@ -27,8 +27,7 @@ function saluer($nom)
 
 saluer("Clément");
 
-function additionner($a, $b)
-{
+function additionner($a, $b){
     return $a + $b;
 }
 
@@ -107,6 +106,8 @@ function ecrireDansLeFichier($nomFichier, $chaine)
 }
 
 ecrireDansLeFichier($nomFichier, $chaine);
+
+
 
 function lireDansLeFichier($nomFichier){
     $fichier2 = fopen($nomFichier,"r");

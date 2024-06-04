@@ -381,8 +381,9 @@ foreach ($creneaux as $creneau) {
 }
 
 if ($creneauTrouve){
-    echo "Le magasin est ouvert";
+    echo "Votre magasin est ouvert";
 } else {
     echo "Le magasin sera fermé";
 }
+
 
